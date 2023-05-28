@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine
 
 WORKDIR /home/node/
 COPY ipollo-prometheus-exporter.js /home/node/ipollo-prometheus-exporter.js
