@@ -3,6 +3,8 @@
 
 ## Purpose
 
+Disclamer: Work in progress (poc working, needs to be automated)
+
 This tool aims to export iPollos metrics (temps, fan speed) as Prometheus format in order to monitor it into Grafana.
 
 You need:
@@ -25,8 +27,13 @@ Edit `config.txt` file: Add your host list to it (only working for one host atm)
 
 ### Start the docker
 
+### Add new source to Prometheus
+
+### Import Grafana dashboard
+
 
 
 ## TODO
+- Create a systemd service
 - Manage several hosts via config file
 - Reload config on change
